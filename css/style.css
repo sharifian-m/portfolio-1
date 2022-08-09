@@ -188,7 +188,7 @@ a:hover {
   font-size: 12px;
 }
 
-.awesome-suggest {
+.amazing-offer {
   background-color: #EF394E;
   display: flex;
   flex-direction: row;
@@ -201,7 +201,7 @@ a:hover {
   position: relative;
 }
 
-.awesome-item {
+.amazing-item {
   border-radius: 10px;
   width: 255px;
   height: 444px;
@@ -212,7 +212,7 @@ a:hover {
   height: 170px;
 }
 
-.awesome-suggest__logo__see-all button {
+.amazing-offer__logo__see-all button {
   position: relative;
   padding: 9px 16px;
   font-size: 14px;
@@ -305,7 +305,7 @@ a:hover {
   margin: 6px;
 }
 
-.awesome-supermarket-suggest {
+.amazing-supermarket-offer {
   background-color: #6BB927;
   display: flex;
   flex-direction: row;
@@ -366,7 +366,7 @@ a:hover {
   color: #232933;
 }
 
-.suggest-txt {
+.offer-txt {
   font-size: 14px;
   font-weight: 400;
 }
@@ -390,11 +390,11 @@ a:hover {
 }
 
 /* -----------------------displays-in-breakpoint-------------------- */
-.mobile-awesome-supermarket-suggest {
+.mobile-amazing-supermarket-offer {
   display: none;
 }
 
-.mobile-awesome-suggest {
+.mobile-amazing-offer {
   display: none;
 }
 
@@ -476,7 +476,7 @@ a:hover {
 
 .personalize__img img {}
 
-.personalize__suggests h3 {
+.personalize__offers h3 {
   color: #232933;
   line-height: 34px;
   font-size: 16px;
@@ -747,11 +747,11 @@ height: 104px;
 /* --------------------------------mobile--device------------------------ */
 
 @media screen and (max-width: 768px) {
-  .awesome-suggest {
+  .amazing-offer {
     display: none;
   }
 
-  .awesome-supermarket-suggest {
+  .amazing-supermarket-offer {
     display: none;
   }
 
@@ -793,19 +793,19 @@ height: 104px;
     display: none;
   } */
 
-  /* .mobile-awesome-suggest::-webkit-scrollbar,
-  .mobile-awesome-supermarket-suggest::-webkit-scrollbar,
+  /* .mobile-amazing-offer::-webkit-scrollbar,
+  .mobile-amazing-supermarket-offer::-webkit-scrollbar,
   .mobile-device-item::-webkit-scrollbar {
     display: none;
   } */
-  .mobile-awesome-suggest {
+  .mobile-amazing-offer {
     display: flex;
     flex-direction: row;
     background-color: #EF394E;
     overflow-x: auto;
   }
 
-  .mobile-awesome-supermarket-suggest {
+  .mobile-amazing-supermarket-offer {
     display: flex;
     flex-direction: row;
     background-color: #6BB927;
